@@ -13,4 +13,5 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
 
+// Call the loader
 defineCustomElements(window);
